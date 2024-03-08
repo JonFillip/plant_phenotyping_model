@@ -1,4 +1,4 @@
-# README: Two-Stage Deep Learning Approach to Plant Phenotyping
+# Two-Stage Deep Learning Approach to Plant Phenotyping
 
 ## Project Overview
 
@@ -7,6 +7,9 @@ This project presents a novel two-stage deep learning-based framework designed f
 ### Implementation Overview
 
 The research encapsulates a dual-phase methodology aimed at the detection, localization, and segmentation of tomatoes, followed by an in-depth trait analysis. This approach is inspired by the successful application of the Mask R-CNN model in agricultural segmentation tasks and is tailored to address the unique challenges presented by vertical farming conditions.
+
+![See model architecture](model_visualizations/model_architecture.png)
+
 
 #### Stage 1: Detection, Localization, and Segmentation
 
@@ -57,16 +60,16 @@ Here are some examples of the model's predictions on the tomato dataset. These i
 
 Figure 1: Tomato detection and segmentation results.
 
-
+![Unlabelled image vs Ground truth vs Model Prediction](model_visualizations/model_prediction.png)
 
 
 
 Figure 2: Extracted tomato traits including count and maturity indices.
-
+![Unlabelled image vs Ground truth vs Model Prediction](model_visualizations/plant_trait.png)
 
 ### Contributing
 
-We welcome contributions from the community, whether it's through reporting bugs, providing feedback, or submitting pull requests. Please refer to our contribution guidelines for more information on how to participate in the project's development.
+To read the Thesis paper, please visit [here](https://docs.google.com/document/d/1wOavYLA9h-wBuhzTN1P38HWqO7oC12PkhPE1S3wqXlo/edit?usp=sharing).
 
 ### Citation
 
